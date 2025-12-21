@@ -1,0 +1,14 @@
+[
+  {
+    "id": "crystalize_maid_energy",
+    "type": "SPELL",
+    "name": { "str": "Crystalize Maid Energy" },
+    "description": "Crystalize your maidly energy into a physical form!",
+    "valid_targets": [ "none" ],
+    "flags": [ "SILENT", "NO_EXPLOSION_VFX", "PERMANENT" ],
+    "energy_source": "MANA",
+    "base_energy_cost": 1000,
+    "effect": "spawn_item",
+    "effect_str": "maid_point"
+  }
+]

@@ -24,8 +24,7 @@
         "knit_scarf",
         "maid_cloak_off",
         "assassins_throwing_dagger",
-        "master_doll",
-        "maid_bell"
+        "master_doll"
       ],
       "male": [ "briefs", "socks", "dress_shoes", "tux" ],
       "female": [ "bra", "tights", "boots", "maid_dress", "maid_hat" ]

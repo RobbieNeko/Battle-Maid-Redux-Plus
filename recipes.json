@@ -411,7 +411,7 @@
   {
     "type": "recipe",
     "result": "flask_shoggoth",
-	"id_suffix": "from_tainted_meat",
+    "id_suffix": "from_tainted_meat",
     "category": "CC_OTHER",
     "skill_used": "cooking",
     "difficulty": 9,
@@ -440,11 +440,7 @@
     "autolearn": false,
     "book_learn": [ [ "book_shoggoth", 9 ] ],
     "tools": [ [ [ "chemistry_set", 5 ] ] ],
-    "components": [
-      [ [ "meat_shoggoth", 2 ] ],
-      [ [ "flask_glass", 1 ] ],
-      [ [ "blood", 10 ] ]
-    ]
+    "components": [ [ [ "meat_shoggoth", 2 ] ], [ [ "flask_glass", 1 ] ], [ [ "blood", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -498,49 +494,6 @@
     "autolearn": true,
     "tools": [ [ [ "sewing_kit", 30 ] ] ],
     "components": [ [ [ "rag", 12 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "maid_bell",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_OTHER",
-    "skill_used": "fabrication",
-    "skills_required": [ "tailor", 3 ],
-    "difficulty": 3,
-    "time": "60 m",
-    "reversible": false,
-    "autolearn": true,
-    "tools": [ [ [ "sewing_kit", 30 ] ] ],
-    "components": [ [ [ "rag", 12 ] ], [ [ "vibrator", 1 ], [ "stick", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "master_doll_vibe_off",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_OTHER",
-    "skill_used": "fabrication",
-    "skills_required": [ "tailor", 3 ],
-    "difficulty": 3,
-    "time": "60 m",
-    "reversible": false,
-    "autolearn": true,
-    "tools": [ [ [ "sewing_kit", 30 ] ] ],
-    "components": [ [ [ "rag", 12 ] ], [ [ "vibrator", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "maid_point",
-    "byproducts": [ [ "maid_bell" ] ],
-    "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_OTHER",
-    "skill_used": "fabrication",
-    "difficulty": 0,
-    "time": "30 m",
-    "flags": [ "BLIND_EASY" ],
-    "reversible": false,
-    "autolearn": true,
-    "tools": [ [ [ "master_doll", 48 ], [ "master_doll_vibe_off", 15 ] ] ],
-    "components": [ [ [ "maid_bell", 1 ] ] ]
   },
   {
     "type": "recipe",

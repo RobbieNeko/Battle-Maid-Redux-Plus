@@ -125,73 +125,8 @@
     "material": [ "cotton" ],
     "weight": "300 g",
     "volume": "750 ml",
-    "flags": [ "NO_UNLOAD", "NO_RELOAD" ],
-    "max_charges": 48,
-    "initial_charges": 48,
-    "artifact_data": { "charge_type": "ARTC_TIME" }
-  },
-  {
-    "type": "GENERIC",
-    "category": "other",
-    "id": "maid_bell",
-    "name": { "str": "ceremony doll", "str_pl": "ceremony dolls" },
-    "description": "This is a doll in the shape of your beloved master, but with an additional 'special attachment.' By using it in a certain (rather embarassing) type of private ritual, you can catalyze your powerful desires towards your beloved master into a usable type of energy.",
-    "weight": "300 g",
-    "symbol": "m",
-    "color": "brown",
-    "price": "54 USD",
-    "material": [ "cotton" ],
-    "volume": "750 ml"
-  },
-  {
-    "id": "master_doll_vibe_off",
-    "type": "TOOL",
-    "category": "other",
-    "symbol": "m",
-    "color": "brown",
-    "name": { "str": "master doll (vibrator) (off)" },
-    "description": "This is a doll in the shape of your beloved master, but with an additional 'special attachment.' By using it in a certain (rather embarassing) type of private ritual, you can release an explosion of desire towards your beloved master and transform it into a usable type of energy.",
-    "price": "54 USD",
-    "material": [ "cotton", "plastic" ],
-    "weight": "400 g",
-    "volume": "750 ml",
-    "flags": [ "NO_UNLOAD", "NO_RELOAD" ],
-    "max_charges": 15,
-    "initial_charges": 15,
-    "use_action": [
-      {
-        "type": "transform",
-        "msg": "You can no longer suppress your feelings and began to intimately press against your master's doll...",
-        "target": "master_doll_vibe_on",
-        "active": true,
-        "need_charges": 0
-      }
-    ]
-  },
-  {
-    "id": "master_doll_vibe_on",
-    "type": "TOOL",
-    "category": "other",
-    "symbol": "m",
-    "color": "brown",
-    "name": { "str": "master doll (vibrator) (on)" },
-    "description": "his is a doll in the shape of your beloved master, but with an additional 'special attachment.' By using it in a certain (rather embarassing) type of private ritual, you can release an explosion of desire towards your beloved master and transform it into a usable type of energy.",
-    "price": "54 USD",
-    "material": [ "cotton", "plastic" ],
-    "weight": "400 g",
-    "volume": "750 ml",
-    "flags": [ "NO_UNLOAD", "NO_RELOAD" ],
-    "max_charges": 16,
-    "initial_charges": 16,
-    "revert_to": "master_doll_vibe_off",
-    "use_action": {
-      "type": "transform",
-      "msg": "Finally, after your body tightens up and you reach your limit, you collapse on the doll with a delighted and exhausted smile...",
-      "target": "master_doll_vibe_off",
-      "need_charges": 0,
-      "transform_charges": 1
-    },
-    "artifact_data": { "charge_type": "ARTC_HP", "effects_activated": [ "AEA_ADRENALINE", "AEA_PARALYZE" ] }
+    "flags": [ "NO_UNLOAD", "NO_RELOAD", "USE_PLAYER_ENERGY" ],
+    "use_action": { "type": "cast_spell", "spell_id": "crystalize_maid_energy", "no_fail": true, "level": 1 }
   },
   {
     "id": "summon_little_maid",
