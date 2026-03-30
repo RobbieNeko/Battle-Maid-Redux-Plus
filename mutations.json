@@ -1,7 +1,7 @@
 [
   {
     "type": "mutation",
-    "id": "MARTIAL_ARTS_maid",
+    "id": "MARTIAL_ARTS_MAID",
     "name": { "str": "Servant's fighting technique" },
     "points": 3,
     "description": "Your master was more hated than most, forcing you to learn some unorthodox combat techniques.",
@@ -91,24 +91,6 @@
     "movecost_modifier": 0.8,
     "healing_awake": 1.0,
     "healing_resting": 0.75,
-    "mending_modifier": 1.0
-  },
-  {
-    "type": "mutation",
-    "id": "SHOGGOTH_BODY_NPC",
-    "name": { "str": "Eldritch Doppelgänger" },
-    "points": -2,
-    "visibility": 10,
-    "ugliness": 10,
-    "mixed_effect": true,
-    "description": "Alien flesh and bone inhabits a human frame. This fell abomination once was, and still is, an eldritch being beyond our understanding.\n\nNPC version of Unbound Flesh, approx. 3x as strong.",
-    "purifiable": false,
-    "valid": false,
-    "threshreq": [ "THRESH_SHOGGOTH" ],
-    "armor": [ { "parts": "ALL", "cut": 12, "bash": 8 } ],
-    "movecost_modifier": 0.8,
-    "healing_awake": 3.0,
-    "healing_resting": 2.25,
     "mending_modifier": 1.0
   },
   {
@@ -332,23 +314,6 @@
     "id": "ANIMALDISCORD",
     "copy-from": "ANIMALDISCORD",
     "extend": { "category": [ "MAID" ] }
-  },
-  {
-    "type": "mutation",
-    "id": "MAID_ANKI",
-    "name": { "str": "Hidden Weapon" },
-    "points": 6,
-    "mixed_effect": true,
-    "description": "You always carry a concealed dark weapon. Victims who carelessly approach you at close range will be pierced by the weapon without even realizing its presence.",
-    "prereqs": [ "DEFT" ],
-    "category": [ "MAID" ],
-    "valid": false,
-    "attacks": {
-      "attack_text_u": "You stabbed %s with a concealed dark weapon",
-      "attack_text_npc": "%1$s stabbed %2$s with a concealed weapon",
-      "chance": 20,
-      "base_damage": { "damage_type": "stab", "amount": 12 }
-    }
   },
   {
     "type": "mutation",
