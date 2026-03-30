@@ -106,7 +106,12 @@
     "id": "TALK_MAID_MILK2",
     "type": "talk_topic",
     "dynamic_line": "Ah...Ahn♪ Oh master, that feels so...good...",
-    "speaker_effect": { "effect": [ { "u_buy_item": "milk", "count": 4, "container": "bottle_glass" }, { "npc_add_effect": "maid_milked", "duration": 28000 } ] },
+    "speaker_effect": {
+      "effect": [
+        { "u_buy_item": "milk", "count": 4, "container": "bottle_glass" },
+        { "npc_add_effect": "maid_milked", "duration": 28000 }
+      ]
+    },
     "responses": [
       {
         "text": "We're not done yet. I want your 'milk' too.",
@@ -122,28 +127,6 @@
     "dynamic_line": "Th-there too? N-no, wait, I'm going to...! Master, please, I can't stop - urgh, please, just let me rest...!",
     "speaker_effect": { "effect": [ { "u_buy_item": "protein_milk", "count": 1, "container": "bottle_glass" } ] },
     "responses": [ { "text": "That's all for now.", "topic": "TALK_DONE" } ]
-  },
-  {
-    "id": "TALK_SHOGGOTH_HEART",
-    "type": "talk_topic",
-    "dynamic_line": "Oh master...♪ I feel the same way! But you know, there is a way we can be together forever, no matter how cold or cruel this world is...",
-    "responses": [ { "text": "Tell me more.", "topic": "TALK_SHOGGOTH_HEART2" } ]
-  },
-  {
-    "id": "TALK_SHOGGOTH_HEART2",
-    "type": "talk_topic",
-    "dynamic_line": "Take my heart and eat it. Ah, don't worry♪ I won't die. My strength will become our strength, and nobody will be able to separate us then!",
-    "responses": [
-      { "text": "This...let's do it. Now.", "topic": "TALK_SHOGGOTH_HEART3" },
-      { "text": "You know what? Never mind.", "topic": "TALK_DONE" }
-    ]
-  },
-  {
-    "id": "TALK_SHOGGOTH_HEART3",
-    "type": "talk_topic",
-    "dynamic_line": "For my beloved master, I would do anything! Oh, if you ever change your mind, just put my heart back in the flask - I'll be back in no time!",
-    "speaker_effect": { "effect": [ { "u_buy_item": "meat_shoggoth", "count": 2 }, "npc_die" ] },
-    "responses": [ { "text": "...", "topic": "TALK_DONE" } ]
   },
   {
     "id": [ "TALK_MAID_ORDERS" ],
@@ -261,19 +244,6 @@
     "type": "talk_topic",
     "dynamic_line": "My history? You mean before I served you? ...I'm sorry, but...",
     "responses": [ { "text": "Actually, never mind.", "topic": "TALK_DONE" } ]
-  },
-  {
-    "id": "TALK_SHOGGOTH_CHAT",
-    "type": "talk_topic",
-    "dynamic_line": "<shoggoth_chat>",
-    "responses": [
-      {
-        "text": "<chitchat_player_responses>",
-        "topic": "TALK_DONE",
-        "switch": true,
-        "effect": [ "morale_chat_activity", { "npc_add_effect": "asked_to_socialize", "duration": 7000 } ]
-      }
-    ]
   },
   {
     "id": "TALK_MISC_RULES_MAID",
