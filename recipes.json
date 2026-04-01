@@ -1,7 +1,7 @@
 [
   {
     "type": "recipe",
-    "result": "maid_dress",
+    "result": "maid_dress_victorian",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "tailor",
@@ -10,20 +10,7 @@
     "reversible": false,
     "autolearn": true,
     "tools": [ [ [ "sewing_kit", 60 ] ] ],
-    "components": [ [ [ "rag", 40 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "maid_dress_french",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 4,
-    "time": "180 m",
-    "reversible": false,
-    "autolearn": true,
-    "tools": [ [ [ "sewing_kit", 40 ] ] ],
-    "components": [ [ [ "rag", 20 ] ] ]
+    "components": [ [ [ "rag", 30 ] ] ]
   },
   {
     "type": "recipe",
@@ -39,7 +26,7 @@
     "qualities": [ { "id": "CUT", "level": 1, "amount": 1 } ],
     "tools": [ [ [ "welder", 18 ], [ "soldering_iron", 18 ], [ "toolset", 18 ] ], [ [ "sewing_kit", 60 ] ] ],
     "components": [
-      [ [ "maid_dress", 1 ] ],
+      [ [ "maid_dress_victorian", 1 ] ],
       [ [ "cloak", 1 ] ],
       [
         [ "chestrig", 1 ],
@@ -107,19 +94,6 @@
     "autolearn": true,
     "tools": [ [ [ "sewing_kit", 30 ] ] ],
     "components": [ [ [ "rag", 8 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "tux",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 4,
-    "time": "200 m",
-    "reversible": false,
-    "autolearn": true,
-    "tools": [ [ [ "sewing_kit", 65 ] ] ],
-    "components": [ [ [ "rag", 45 ] ] ]
   },
   {
     "type": "recipe",
@@ -425,7 +399,7 @@
       [ [ "flask_glass", 1 ] ],
       [ [ "blood", 10 ] ],
       [ [ "maid_point", 4000 ] ],
-      [ [ "maid_dress", 1 ] ]
+      [ [ "maid_dress_victorian", 1 ] ]
     ]
   },
   {
@@ -454,19 +428,6 @@
     "autolearn": true,
     "tools": [ [ [ "sewing_kit", 60 ] ] ],
     "components": [ [ [ "leather", 30 ] ], [ [ "rag", 25 ] ], [ [ "felt_patch", 20 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "maid_cap",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 3,
-    "time": "20 m",
-    "reversible": false,
-    "autolearn": true,
-    "tools": [ [ [ "sewing_kit", 15 ] ] ],
-    "components": [ [ [ "rag", 4 ] ] ]
   },
   {
     "type": "recipe",

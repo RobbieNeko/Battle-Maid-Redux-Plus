@@ -27,7 +27,7 @@
         "master_doll"
       ],
       "male": [ "briefs", "socks", "dress_shoes", "tux" ],
-      "female": [ "bra", "tights", "boots", "maid_dress", "maid_hat" ]
+      "female": [ "bra", "tights", "boots", "maid_dress_victorian", "maid_hat" ]
     }
   },
   {
@@ -54,7 +54,7 @@
     "items": {
       "both": [ "pocketwatch", "knife_butter", "maid_master_child", "man_carrier" ],
       "male": [ "briefs", "socks", "dress_shoes", "tux" ],
-      "female": [ "panties", "bra", "stockings", "boots", "maid_dress", "maid_hat" ]
+      "female": [ "panties", "bra", "stockings", "boots", "maid_dress_victorian", "maid_hat" ]
     }
   },
   {
@@ -68,7 +68,7 @@
     "items": {
       "both": [ "pocketwatch", "knife_butter", "leather_collar" ],
       "male": [ "briefs_kemo", "socks", "dress_shoes", "tux" ],
-      "female": [ "stockings_lace", "bra", "boots", "maid_dress", "cat_maid_cap" ]
+      "female": [ "stockings_lace", "bra", "boots", "maid_dress_victorian", "cat_maid_cap" ]
     }
   }
 ]
