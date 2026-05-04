@@ -22,11 +22,5 @@
     "id": "maid_point",
     "name": "Maid Point",
     "default": "maid_point"
-  },
-  {
-    "type": "ammunition_type",
-    "id": "maid_power",
-    "name": "Maid Power",
-    "default": "maid_power"
   }
 ]
