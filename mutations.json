@@ -429,5 +429,23 @@
     "armor": [ { "parts": "ALL", "bash": 8, "cut": 8, "stab": 8, "bullet": 8 } ],
     "healing_awake": 4.45,
     "healing_resting": 4.45
+  },
+  {
+    "type": "mutation",
+    "id": "futanari",
+    "name": { "str": "Hermaphrodite" },
+    "points": 0,
+    "description": "There are two genders in your body.",
+    "starting_trait": true,
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "syokusyu",
+    "name": { "str": "Reproductive Tentacles" },
+    "points": 0,
+    "description": "Writhing tentacles that can be used in reproduction are growing in your body.",
+    "starting_trait": true,
+    "valid": false
   }
 ]
