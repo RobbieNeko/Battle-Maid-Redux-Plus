@@ -1,5 +1,13 @@
-# Battle Maid Redux Redux
+# Battle Maid Redux Plus
 
+A reworked version of Battle Maid Redux with the goal of cutting out certain pieces that do not work well. Notably:
+- Changes the system for gaining maid points from a recharge-based system using artifacts to instead using mana and casting spells
+- Fully removes obsolete data regarding an NPC version of the shoggoth maid (instead using the classic monster version)
+- Fixes some inconsistencies with mutations as well as lack of copy-from usage for outfits that have vanilla counterparts.
+
+I take no credit for the translation efforts that had to go on in the past.
+
+# Original Description
 A semi-comprehensive rebuild of the Battle Maid Redux mod, which itself is a retranslation of a machine translation of a Japanese mod.
 Obviously, should not be used with any of the three preceding versions.
 
