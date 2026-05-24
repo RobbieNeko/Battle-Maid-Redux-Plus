@@ -7,6 +7,13 @@ A reworked version of Battle Maid Redux with the goal of cutting out certain pie
 
 I take no credit for the translation efforts that had to go on in the past.
 
+# Licensing
+The mod originates from a [Japanese upload site](https://www.axfc.net/u/3747115) with no clear author information and no real information attached to it (aside from the readme describing the contents) beyond a single word: "karimasu". The word means "to borrow" which is an interesting choice (a verb, of all things?). There was no obvious license included with the work either.
+
+Moreover, when getting the mod to its current state it has changed many hands: from ChestHole (arguably the first translator) to [Vermillion](https://discourse.cataclysmdda.org/t/battle-maid-redux-attempted-translation-minor-tweaks/15424) to TheGoatGod and into the BN era with Kenan and similar. As such, if the mod truly was originally All Rights Reserved, we are already several layers deep into infringment (Since translations are derivative works and would have to get permission from the original copyright holder!)
+
+As such, and given the fact that this mod's very existence in English would otherwise be a copyright violation, I have determined that the most logical conclusion is that the mod should be licensed under something like CC-BY-SA 3.0 (the same as the game).
+
 # Original Description
 A semi-comprehensive rebuild of the Battle Maid Redux mod, which itself is a retranslation of a machine translation of a Japanese mod.
 Obviously, should not be used with any of the three preceding versions.
