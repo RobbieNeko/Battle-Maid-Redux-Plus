@@ -4,6 +4,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": { "str": "Shoggoth Blood" },
+    "container": "flask_glass",
     "description": "This is blood taken from Shoggoth. The blood itself is wriggling at a slow rate, even though it hasn't been touched by anything. If you intend to use it, you will need a syringe...",
     "color": "light_green",
     "use_action": { "type": "mutagen_iv", "mutation_category": "MAID" }
