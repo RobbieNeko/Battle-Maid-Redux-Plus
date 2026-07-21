@@ -28,5 +28,19 @@
     "worn_override": "NC_MAID_worn",
     "carry_override": "naked_prisoner",
     "weapon_override": "naked_prisoner"
+  },
+  {
+    "type": "item_group",
+    "id": "NC_MAID_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "maid_dress", "prob": 100 },
+      { "item": "maid_hat", "prob": 100 },
+      { "item": "petticoat", "prob": 100 },
+      { "item": "panties", "prob": 100 },
+      { "item": "stockings_lace", "prob": 100 },
+      { "item": "bra", "prob": 100 },
+      { "item": "dress_shoes", "prob": 100 }
+    ]
   }
 ]
