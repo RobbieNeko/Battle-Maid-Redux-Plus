@@ -97,7 +97,7 @@
     "material_thickness": 1
   },
   {
-    "type": "ARMOR",
+    "type": "TOOL_ARMOR",
     "category": "clothing",
     "id": "tux",
     "copy-from": "tux",
@@ -109,7 +109,7 @@
     "ammo": [ "assassins_throwing_dagger" ]
   },
   {
-    "type": "ARMOR",
+    "type": "TOOL_ARMOR",
     "id": "survivor_tux",
     "repairs_like": "lsurvivor_suit",
     "name": { "str": "survivor tuxedo" },
