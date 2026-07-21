@@ -41,7 +41,7 @@
       [ "petticoat", 3 ],
       [ "jokyu_fuku", 3 ],
       [ "maid_dress", 3 ],
-      [ "maid_cap", 3 ],
+      [ "maid_hat", 3 ],
       [ "cat_maid_cap", 3 ],
       [ "leather_cat_tail_biv", 3 ],
       [ "fur_cat_tail_biv", 3 ]
@@ -55,7 +55,7 @@
       [ "petticoat", 3 ],
       [ "jokyu_fuku", 3 ],
       [ "maid_dress", 3 ],
-      [ "maid_cap", 3 ],
+      [ "maid_hat", 3 ],
       [ "cat_maid_cap", 3 ],
       [ "leather_cat_tail_biv", 3 ],
       [ "fur_cat_tail_biv", 3 ]
@@ -64,7 +64,7 @@
   {
     "type": "item_group",
     "id": "hatstore_hats",
-    "items": [ [ "maid_cap", 30 ], [ "cat_maid_cap", 20 ] ]
+    "items": [ [ "maid_hat", 30 ], [ "cat_maid_cap", 20 ] ]
   },
   {
     "type": "item_group",
@@ -74,7 +74,7 @@
       [ "petticoat", 3 ],
       [ "jokyu_fuku", 3 ],
       [ "maid_dress", 3 ],
-      [ "maid_cap", 3 ],
+      [ "maid_hat", 3 ],
       [ "cat_maid_cap", 3 ]
     ]
   },
@@ -86,7 +86,7 @@
       [ "petticoat", 3 ],
       [ "jokyu_fuku", 3 ],
       [ "maid_dress", 3 ],
-      [ "maid_cap", 3 ],
+      [ "maid_hat", 3 ],
       [ "cat_maid_cap", 3 ],
       [ "leather_cat_tail_biv", 3 ],
       [ "fur_cat_tail_biv", 3 ]
