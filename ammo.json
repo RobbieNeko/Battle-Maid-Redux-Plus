@@ -93,7 +93,7 @@
     "turns_per_charge": 1,
     "use_action": {
       "type": "explosion",
-      "sound_volume": "10 db",
+      "sound_volume": "10 dB",
       "sound_msg": "You are so furious that even the earth begins to rumble...",
       "no_deactivate_msg": "This is an outrage! You're on the verge of exploding!",
       "explosion": {
